@@ -478,9 +478,9 @@ class GoogleDriveHelper:
                 msg += '<br><br>'
 
             response = Telegraph(access_token=telegraph_token).create_page(
-                                                    title = 'Mirror Bot Search',
-                                                    author_name='Mirror Bot',
-                                                    author_url='https://github.com/magneto261290/magneto-python-aria',
+                                                    title = '📚 𝗖𝗼𝘂𝗿𝘀𝗲𝘀 𝗗𝗿𝗶𝘃𝗲 📚 | 𝗦𝗲𝗮𝗿𝗰𝗵 𝗥𝗲𝘀𝘂𝗹𝘁𝘀',
+                                                    author_name='🄳🅁🄸🅅🄴 🄱🄾🅃',
+                                                    author_url='https://t.me/IamMirror',
                                                     html_content=msg
                                                     )['path']
 
